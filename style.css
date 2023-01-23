@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
 }
 
 body {
@@ -19,6 +18,7 @@ header {
     position: fixed;
     width: 100%;
     background-color: #09090A;
+    color: white;
 }
 
 button {
@@ -110,7 +110,17 @@ input:checked{
 }
 
 @media (max-width: 500px) {
+    
+    header {
+        padding: 39px 50px 25px;
+    }
+
     button div {
         display: none;
+    }
+
+    form {
+        padding-top: 120px;
+        margin: 0 50px;
     }
 }
